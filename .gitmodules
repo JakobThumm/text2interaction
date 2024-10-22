@@ -1,7 +1,3 @@
 [submodule "STAP"]
 	path = STAP
 	url = git@github.com:JakobThumm/STAP.git
-[submodule "fm-planning"]
-	path = fm-planning
-	url = git@github.com:agiachris/fm-planning.git
-  branch = t2i
