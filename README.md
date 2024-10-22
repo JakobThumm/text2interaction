@@ -21,7 +21,7 @@ Adjusting robot behavior to human preferences can require intensive human feedba
 ## Our work is split in two major parts:
 
  1. [Training skills, planning, and evaluation](https://github.com/JakobThumm/STAP/): We first use offline reinforcement learning to learn the robotic skills. We then plan an optimal robot plan that satisfies the user preferences *and* has a high success rate.
- 2. [Generate preference functions](https://github.com/agiachris/fm-planning/tree/t2i): This code is used to generate the custom preference functions from user instructions using a large language model.
+ 2. [Generate preference functions](https://github.com/JakobThumm/text2interaction/tree/main/fm-planning): This code is used to generate the custom preference functions from user instructions using a large language model.
 
 We describe the purpose, installation, steps to reproduce our results, and implementation details in greater detail in the README files of the two sub-repos. 
 For your convenience, we added both code bases as git submodules to this repository.
@@ -30,12 +30,13 @@ For your convenience, we added both code bases as git submodules to this reposit
 Text2Interaction is offered under the MIT License agreement. 
 If you find Text2Interaction useful, please consider citing our work:
 ```
-@misc{thumm_2024_Text2InteractionEstablishing,
+@inproceedings{thumm_2024_Text2InteractionEstablishing,
   title = {Text2Interaction: Establishing Safe and Preferable Human-Robot Interaction},
+  shorttitle = {Text2Interaction},
+  booktitle = {8th Annual Conference on Robot Learning},
   author = {Thumm, Jakob and Agia, Christopher and Pavone, Marco and Althoff, Matthias},
   year = {2024},
-  number = {arXiv:2408.06105},
-  doi = {10.48550/arXiv.2408.06105},
-  url = {http://arxiv.org/abs/2408.06105},
+  url = {https://openreview.net/forum?id=s0VNSnPeoA&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3Drobot-learning.org%2FCoRL%2F2024%2FConference%2FAuthors%23your-submissions)},
+  langid = {english},
 }
 ```

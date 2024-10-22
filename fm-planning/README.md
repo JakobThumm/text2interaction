@@ -89,12 +89,13 @@ python scripts/eval/cross_eval_ablation.py --api-key $TEXT2INTERACTION_API_KEY -
 Text2Interaction is offered under the MIT License agreement. 
 If you find Text2Interaction useful, please consider citing our work:
 ```
-@misc{thumm_2024_Text2InteractionEstablishing,
+@inproceedings{thumm_2024_Text2InteractionEstablishing,
   title = {Text2Interaction: Establishing Safe and Preferable Human-Robot Interaction},
+  shorttitle = {Text2Interaction},
+  booktitle = {8th Annual Conference on Robot Learning},
   author = {Thumm, Jakob and Agia, Christopher and Pavone, Marco and Althoff, Matthias},
   year = {2024},
-  number = {arXiv:2408.06105},
-  doi = {10.48550/arXiv.2408.06105},
-  url = {http://arxiv.org/abs/2408.06105},
+  url = {https://openreview.net/forum?id=s0VNSnPeoA&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3Drobot-learning.org%2FCoRL%2F2024%2FConference%2FAuthors%23your-submissions)},
+  langid = {english},
 }
 ```
